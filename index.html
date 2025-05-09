@@ -1,24 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interação com DOM</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>TÍTULO</h1>
 
-    <button id="btn1">Botão 1</button>
+  <div class="titulo-container">
+  <h1 id="titulo">TÍTULO</h1>
+  <button id="btn1">Botão 1</button>
+    </div>
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione sit ipsa corrupti voluptatem quisquam deserunt quos. Aut deserunt incidunt consectetur voluptates dolore dolorem, nulla voluptatem reprehenderit illo repellendus aliquid tenetur!</p>
+  <div class="section">
+    <img id="imagem" alt="Clique duas vezes no botão 2">
     <button id="btn2">Botão 2</button>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam similique culpa minima obcaecati recusandae sit ipsum in, provident repellat? Obcaecati totam consectetur ducimus expedita officiis placeat, quisquam nemo vel praesentium?</p>
-    <button id="btn3">Botão 3</button>
+  </div>
 
-    <br><button>Botão 4</button>
-    <button>Botão 5</button>
-    <button>Botão 6</button>
-    <script src="main.js"></script>
+  <div class="section">
+    <p id="texto1">Coloque o mouse em cima do botão 3</p>
+    <button id="btn3">Botão 3</button>
+  </div>
+
+  <div class="section">
+    <p id="texto2">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam similique culpa minima obcaecati recusandae sit ipsum in, provident repellat? Obcaecati totam consectetur ducimus expedita officiis placeat, quisquam nemo vel praesentium?
+    </p>
+  </div>
+
+  <div class="botoes-finais">
+    <button class="btn-final">Botão 4</button>
+    <button class="btn-final">Botão 5</button>
+    <button class="btn-final">Botão 6</button>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
